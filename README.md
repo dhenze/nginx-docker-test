@@ -16,8 +16,8 @@ Try
   _`docker pull olanod/test-api-server olanod/test-static-server`_
 
 - or **Build** the images  
-  _`docker build olanod/test-api-server .`_ _(from api-server)_  
-  _`docker build olanod/test-static-server .`_ _(from static-server)_
+  _`docker build -t olanod/test-api-server .`_ _(from api-server)_  
+  _`docker build -t olanod/test-static-server .`_ _(from static-server)_
 
 - **Run** to test the created containers  
   _`docker run --name api-server olanod/test-api-server`_  
